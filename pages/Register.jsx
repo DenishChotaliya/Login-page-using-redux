@@ -65,7 +65,7 @@ const AddItem = () => {
         )}
         {errors?.password?.type === "pattern" && (
           <small className="text-red-500  pl-5 ">
-            Please enter a valid password
+            Please enter a valid 8-Digit Password
           </small>
         )}
         <input
